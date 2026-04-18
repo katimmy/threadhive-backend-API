@@ -4,7 +4,7 @@ let server = null;
 
 export async function startServer() {
     try {
-        const port = process.env.PORT || 3000;
+        const port = process.env.PORT || 3001;
         server = app.listen(port, () => {
             console.log(`Server running at http://localhost:${port}`);
         });
